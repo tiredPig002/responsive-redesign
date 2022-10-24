@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Responsive Redesign</title>
+		<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jacques+Francois+Shadow&display=swap" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="styles.css"/> 
+	</head>
+	<body>
+		<h1>Responsive Redesign</h1>
+		<div id="intro" class="block"> 
+			<h2>Usability in Web Design</h2>
+			<p>The internet is a powerful invention which gave everyday people access to information on a scale never seen before in the world. However, access to that information varies from person to person based on their abilities and sometimes their limitations. In that case, to ensure equal and accessible access to all types of users from different backgrounds, it's important that a website be usable, learnable, and memorable. </p>
+			<p>Thus, I decided to take a look at a website which struggles in certain aspects I described above, and try redesigning it in a way which fixes a lot of the design issues. The website I have choesn to redesign is <a href="http://www.oceanstatehearing.com" target="_blank">Ocean State Hearing Aid Center's home page</a>, shown below.</p>
+			<div class="gallery">
+				<a class="gallery-item" href = "http://www.oceanstatehearing.com" target="_blank">
+					<img src="assets/old-screenshot.jpg" alt= "a screenshot of my redesigned website">
+					<p>Ocean State Hearing Aid Center</p>
+				</a>
+			</div>
+	
+			<h3>Finding Problems</h3>
+			<table>
+				<tr>
+					<th>Usability</th>
+					<th>Learnability</th>
+					<th>Memorability</th>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							<ul>
+								<li>The navigation bar doesn't float along with the reader to the bottom of the page, meaning on longer pages, if a reader wants to go back to the home page halfway through reading something, they have to scroll all the way back up to the top.</li>
+								<li>The text-size also doesn't readjust on smaller screens, making the website nearly impossible to read or click on anything on a tablet or a phone, which older folks with hearing issues are more likely to use over computers.</li>
+								<li>I also found myself struggling with the random bolded lines in the text that emphasize the wrong words and add very little meaning to the website. Rather than finding myself convinced and secure in their company, it just made reading the information harder, as I find my eyes being pulled towards them thinking they're an address or something, only to find that it is the words "trust in the experts".</li>
+							</ul>	
+						</p>						
+					</td>
+					<td>
+						<p>
+							<ul>
+								<li>The side navigation bar is just black text, and doesn’t appear to be a button or a link until you hover over it. It took me a few seconds to realize where the nav bar is.</li>
+								<li>Furthermore, I'm not sure where to focus my eyes on. The navigation bar is on the left, but there is also information on the right-most column as well as a header that doesn't appear to do anything. All three are styled very similarly to navigation structures.</li>
+								<li>Immediately, I’m confused by the front page as Dr. Lancia, but the header of the section is an introductory line and his name is only bolded in a sentence at the very bottom and separated by the linebreak. I had a hard time finding his name and titles</li>
+								<li>Even after going through the website several times, it’s still hard to see key information.For example, one of the addresses in the Locations page is hyperlinked and a different color, but the rest are not and are written in the same line as hours of operation and phone numbers. </li>
+							</ul>			
+						</p>
+					</td>
+					<td>
+						<p>
+							<ul>
+								<li>The color of the headers also blends together with the beige-ish color of the background. It doesn’t nearly stand out as much as the black text.</li>
+								<li>I found many of the images did not really add anything to the memorability of the website. Many on the pages are just images of people near oceans, seemingly enjoying the view. While I find that quite calming, it doesn't really communicate anything. </li>
+								<li> I felt the logo text was easy to miss and despite the logo being on every page, when I was making my lo-fi framework, I could not remember anything about what it looked like.</li>
+								<li>On mobile and any smaller devices, the text and logos are barely visible. Unfortunately, it is memorable for the wrong reasons as readers have to zoom in repeatedly to see the webpage.</li>
+							</ul>
+						</p>
+					</td>
+				</tr>
+			</table>
+
+			<h3>Accessibility</h3>
+			<p>
+				The accessibility score is actually pretty good. However, I found myself disagreeing with the score based on the target audience of the website and my own experiences. A lot of Dr. Lancia’s customers are likely older people, as they are more likely to develop hearing issues and require hearing aids. However, the text is small and hard to read, spaced too tightly together, and so I found myself accidentally missing a few lines while trying to read. 
+			</p>
+			<p>
+				Furthermore, some of the alt-text on the images aren’t very helpful. For example, one series of images is documenting the types of hearing aids in size, what they look like, their names, and how they fit in someone’s ear. However, the alt-text for all of the images is simplified down to “Photo of hearing aids”, which doesn’t convey the information at all.
+			</p>
+			<p>
+				When I try to open this webpage on my phone, the images and text don’t properly scale, making the words tiny and impossible to read on an elongated screen. I can imagine an older customer who is in need of hearing aids, using a phone and a tablet, struggling to read the details on this website. 
+			</p>
+			<p>
+				One of the biggest issues I found was that when the links or navigational items were pressed, that there was no notable difference in the response of the website. Some of my neurodivergent friends have explained to me the frustration in navigating the website when they don't know whether they properly clicked a button or not. The website does have some difference for when the user hovers over certain links or menus, but still does not adequately show the difference for when they are clicked and activated.
+			</p>
+		</div>
+		<div class="block">
+			<h2>Visual Redesign</h2>
+			<h3>Low-Fidelity Wireframe</h3>
+			<div class="gallery">
+				<a class="gallery-item" href="assets/wireframe-desktop.png" target="_blank">
+					<img src="assets/wireframe-desktop.png" alt="a image of my lofi wireframe for a desktop">
+					<p>Desktop</p>
+				</a>
+				<a class="gallery-item" href="assets/wireframe-mobile.png" target="_blank">
+					<img src="assets/wireframe-mobile.png" alt="a image of my lofi wireframe for a phone">
+					<p>Phone</p>
+				</a>
+				<a class="gallery-item" href="assets/wireframe-tablet.png" target="_blank">
+					<img src="assets/wireframe-tablet.png" alt="a image of my lofi wireframe for a tablet">
+					<p>Tablet</p>
+				</a>
+			</div>	
+			<h3>Visual Design Style Guide</h3>
+			<div class="gallery">
+				<a class="gallery-item" href="assets/ui-style-guide.jpg" target="_blank">
+					<img src="assets/ui-style-guide.jpg" alt="temporary ui style guide">
+					<p>UI Style Guide</p>
+				</a>
+			</div>
+			<h3>High-Fidelity Prototyping</h3>
+			<p>
+				Since all three HiFi prototypes are based on the same type of webpage, which is a website that is essentially one giant scrollable page, only one of these will be annotated as the windows size change and display changes will remain consistent throughout all devices. 
+			</p>
+			<div class="gallery">
+				<a class="gallery-item" href="assets/hifi-annotated.png" target="_blank">
+					<img src="assets/hifi-annotated.png" alt="an annotated screenshot my hifi prototype for a desktop">
+					<p>Annotated High-Fi Prototype</p>
+				</a>
+				<a class="gallery-item" href="https://www.figma.com/proto/eX7uAsMvQDOLKSTuZDXCuE/Ocean-State-Redesign?page-id=0%3A1&node-id=1%3A3&viewport=481%2C320%2C0.51&scaling=scale-down&starting-point-node-id=1%3A3" target="_blank">
+					<img src="assets/hifi-desktop.jpg" alt="an screenshot my hifi prototype for a desktop">
+					<p>Desktop Figma</p>
+				</a>
+				<a class="gallery-item" href="https://www.figma.com/proto/eX7uAsMvQDOLKSTuZDXCuE/Ocean-State-Redesign?page-id=12%3A51&node-id=11%3A78&viewport=-474%2C272%2C0.64&scaling=scale-down&starting-point-node-id=11%3A78" target="_blank">
+					<img src="assets/hifi-mobile.jpg" alt="an screenshot my hifi prototype for a phone">
+					<p>Phone Figma</p>
+				</a>
+				<a class="gallery-item" href="https://www.figma.com/proto/eX7uAsMvQDOLKSTuZDXCuE/Ocean-State-Redesign?page-id=12%3A208&node-id=17%3A211&viewport=302%2C189%2C0.49&scaling=scale-down&starting-point-node-id=17%3A211" target="_blank">
+					<img src="assets/hifi-tablet.jpg" alt="an screenshot my hifi prototype for a tablet">
+					<p>Tablet Figma</p>
+				</a>
+			</div>	
+		</div>
+		<div class="block">
+			<h2>The Redesign</h2>
+			<p>With the prototypes I've designed above, I've recreated the website to be hopefully be more accessible and learnable for users of all kinds and backgrounds. My redesigned website is down below: </p>
+
+			<div class="gallery">
+				<a class="gallery-item" href="https://tiredpig002.github.io/redesigned-website/" target="_blank">
+					<img src="assets/website-screenshot.jpg" alt= "a screenshot of my redesigned website">
+					<p>Redesigned Website</p>
+				</a>
+			</div>	
+		</div>
+	</body>
+</html>

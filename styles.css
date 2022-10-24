@@ -1,0 +1,81 @@
+body{
+	margin: 18vh 18vw 18vh 18vw;
+	font-family:'Trebuchet MS', sans-serif;
+	background-color: #7cadc4;
+}
+h1{
+	font-family:'Jacques Francois Shadow', serif;
+	font-size: 60px;
+	color:white;
+	text-shadow: 2px 2px gray;
+}
+h2,h3,h4{
+	font-family: 'Jacques Francois', serif;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size:25px;
+}
+a{
+	color: #0A6FD5;
+}
+a:hover{
+	color: blue;
+}
+table{
+	width:100%;
+	table-layout: fixed;
+}
+table tr{
+	vertical-align: top;
+}
+li{
+	margin: 10px;
+}
+.block{
+	padding: 5px 30px 15px 30px;
+	margin-bottom: 15px;
+	background:white;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+#gallery{
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	width:100%;
+}
+.gallery-item{
+	width:100%;
+	color:black;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.50);
+	margin-bottom:15px;
+	border-style:solid 1px black;
+
+	display:flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding:3px;
+}
+.gallery-item img{
+	object-fit: fill;
+	width:100%;
+	/*height:200px;*/
+}
+.gallery-item p{
+	text-align: center;
+	height:30%;
+	font-size: 24px;
+	font-family: 'Jacques Francois', serif;
+}
+.gallery-item:link{
+	text-decoration: none;
+}
+.gallery-item:hover{
+	border: solid 2px blue;
+}
+.gallery-item:active{
+	transform: translateY(4px);
+}
